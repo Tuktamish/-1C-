@@ -57,24 +57,24 @@ class LabWork
     // 9. Возраст
     public string age(int x)
     {
-        string suffix;
+        string str;
         if (x % 100 >= 11 && x % 100 <= 14)
         {
-            suffix = "лет";
+            str = "лет";
         }
         else if (x % 10 == 1)
         {
-            suffix = "год";
+            str = "год";
         }
         else if (x % 10 >= 2 && x % 10 <= 4)
         {
-            suffix = "года";
+            str = "года";
         }
         else
         {
-            suffix = "лет";
+            str = "лет";
         }
-        return $"{x} {suffix}";
+        return $"{x} {str}";
     }
 
     // 10. Вывод дней недели
