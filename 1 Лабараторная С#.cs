@@ -1,5 +1,3 @@
-﻿using System;
-
 class LabWork
 {
     // 1. Сумма знаков
